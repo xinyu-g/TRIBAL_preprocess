@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "imgt_aa_mouse_ig_v",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/jovyan/share/igblast/fasta/imgt_aa_mouse_ig_v.fasta",
+  "number-of-letters": 55621,
+  "number-of-sequences": 585,
+  "last-updated": "2022-12-12T14:27:00",
+  "number-of-volumes": 1,
+  "bytes-total": 179351,
+  "bytes-to-cache": 61039,
+  "files": [
+    "imgt_aa_mouse_ig_v.pdb",
+    "imgt_aa_mouse_ig_v.phr",
+    "imgt_aa_mouse_ig_v.pin",
+    "imgt_aa_mouse_ig_v.pog",
+    "imgt_aa_mouse_ig_v.pos",
+    "imgt_aa_mouse_ig_v.pot",
+    "imgt_aa_mouse_ig_v.psq",
+    "imgt_aa_mouse_ig_v.ptf",
+    "imgt_aa_mouse_ig_v.pto"
+  ]
+}

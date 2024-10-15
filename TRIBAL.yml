@@ -1,0 +1,20 @@
+name: TRIBAL
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python<3.13
+  - pip
+  - blast
+  - igblast
+  - pip:
+      - matplotlib
+      - numpy
+      - pandas
+      - sc-dandelion
+      - scanpy
+      - tqdm
+      - rpy2
+      - scrublet
+prefix: /Users/summergu/miniconda3/envs/TRIBAL

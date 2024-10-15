@@ -1,0 +1,43 @@
+species: mouse
+data_dir: ./data
+blastdb_dir: ./database/blast/
+igblastdb_dir: ./database/igblast/
+germline_dir: ./database/germlines/
+dandelion_dir: dandelion
+germline_vdj: "imgt/{species}/vdj"
+v_germline_file: "imgt/{species}/vdj/imgt_{species}_IGHV.fasta"
+blastdb_bcr_c: "{species}/mouse_BCR_C.fasta"
+contig_file: dandelion/filtered_contig_dandelion.tsv
+filtered_feature_h5: filtered_feature_bc_matrix.h5
+output_columns:
+  - clonotype
+  - heavy_chain_isotype
+  - heavy_chain_isotype_expression
+  - heavy_chain_seq
+  - heavy_chain_v_allele
+  - heavy_chain_d_allele
+  - heavy_chain_j_allele
+  - light_chain_isotype
+  - light_chain_seq
+  - light_chain_v_allele
+  - light_chain_j_allele
+mouse_isotypes:
+  - Igha
+  - Ighe
+  - Ighd
+  - Ighg1
+  - Ighg2b
+  - Ighg2c
+  - Ighg3
+  - Ighm
+human_isotypes:
+  - IGHA
+  - IGHE
+  - IGHD
+  - IGHG1
+  - IGHG2
+  - IGHG3
+  - IGHG4
+  - IGHM
+tribal_input_table: TRIBAL_input_table.csv
+tribal_root_sequences: TRIBAL_input_root_sequences.csv

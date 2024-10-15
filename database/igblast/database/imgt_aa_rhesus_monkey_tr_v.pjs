@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "imgt_aa_rhesus_monkey_tr_v",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/jovyan/share/igblast/fasta/imgt_aa_rhesus_monkey_tr_v.fasta",
+  "number-of-letters": 20396,
+  "number-of-sequences": 216,
+  "last-updated": "2022-12-12T14:27:00",
+  "number-of-volumes": 1,
+  "bytes-total": 98873,
+  "bytes-to-cache": 22509,
+  "files": [
+    "imgt_aa_rhesus_monkey_tr_v.pdb",
+    "imgt_aa_rhesus_monkey_tr_v.phr",
+    "imgt_aa_rhesus_monkey_tr_v.pin",
+    "imgt_aa_rhesus_monkey_tr_v.pog",
+    "imgt_aa_rhesus_monkey_tr_v.pos",
+    "imgt_aa_rhesus_monkey_tr_v.pot",
+    "imgt_aa_rhesus_monkey_tr_v.psq",
+    "imgt_aa_rhesus_monkey_tr_v.ptf",
+    "imgt_aa_rhesus_monkey_tr_v.pto"
+  ]
+}
