@@ -6,6 +6,13 @@ channels:
 dependencies:
   - python<3.13
   - pip
+  - r-base
+  - r-tigger
+  - r-shazam
+  - r-optparse
+  - r-alakazam
+  - r-airr
+  - rpy2
   - blast
   - igblast
   - pip:
@@ -15,6 +22,6 @@ dependencies:
       - sc-dandelion
       - scanpy
       - tqdm
-      - rpy2
       - scrublet
-prefix: /Users/summergu/miniconda3/envs/TRIBAL
+      - annoy<=1.16.3
+prefix: $HOME/miniconda3/envs/TRIBAL
