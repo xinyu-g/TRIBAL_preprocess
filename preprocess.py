@@ -150,6 +150,7 @@ def main():
             break
 
     # Drop invalid entries and save
+    out_df.replace('', np.nan, inplace=True)
     out_df.dropna(inplace=True)
     out_df.to_csv(f'{data_dir}/{config["tribal_input_table"]}')
 

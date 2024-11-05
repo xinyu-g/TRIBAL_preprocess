@@ -4,7 +4,7 @@ blastdb_dir: ./database/blast/
 igblastdb_dir: ./database/igblast/
 germline_dir: ./database/germlines/
 dandelion_dir: dandelion
-germline_vdj: "imgt/{species}/vdj"
+germline_vdj: "imgt/{species}/vdj/"
 v_germline_file: "imgt/{species}/vdj/imgt_{species}_IGHV.fasta"
 blastdb_bcr_c: "{species}/mouse_BCR_C.fasta"
 contig_file: dandelion/filtered_contig_dandelion.tsv
