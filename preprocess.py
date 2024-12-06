@@ -127,9 +127,11 @@ def main():
     filt_vdj.data['cellId'] = [x.split('_contig')[0] for x in filt_vdj.data['sequence_id']]
     # Prepare TRIBE input table
     columns = config['output_columns']
-    out_df = pd.DataFrame(index=filt_vdj.metadata.index, columns=columns)
+    index = filt_vdj.metadata.index.str.replace('_', '-')
+    out_df = pd.DataFrame(index=index, columns=columns)
+    out_df.index.name = "cellid"
 
-    for i in filt_vdj.metadata.index:
+    for i in index:
         try:
             sub = filt_vdj.data.loc[filt_vdj.data['cellId'] == i]
             hc = sub.loc[sub['v_call'].str.contains('IGH')]
@@ -156,6 +158,7 @@ def main():
 
     # Generate TRIBE clonotype root sequence table
     root_df = pd.DataFrame(index=out_df['clonotype'].unique(), columns=['light_chain_root', 'heavy_chain_root'])
+    root_df.index.name = 'clonotype'
 
     for cid in root_df.index:
         cid_df = filt_vdj.data.loc[filt_vdj.data['clone_id'] == cid]

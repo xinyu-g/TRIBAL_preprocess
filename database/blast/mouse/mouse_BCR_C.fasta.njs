@@ -6,7 +6,7 @@
   "description": "./database/blast//mouse/mouse_BCR_C.fasta",
   "number-of-letters": 10644,
   "number-of-sequences": 36,
-  "last-updated": "2024-11-05T05:26:00",
+  "last-updated": "2024-11-06T09:10:00",
   "number-of-volumes": 1,
   "bytes-total": 55453,
   "bytes-to-cache": 3247,
